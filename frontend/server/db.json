@@ -1,0 +1,52 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John",
+      "age": 35,
+      "job": "frontend",
+      "language": "react",
+      "pay": 1
+    },
+    {
+      "id": 2,
+      "name": "Peter",
+      "age": "40",
+      "job": "frontend",
+      "language": "python",
+      "pay": 1
+    },
+    {
+      "id": 3,
+      "name": "Sue",
+      "age": 35,
+      "job": "frontend",
+      "language": "react",
+      "pay": 1
+    },
+    {
+      "id": 9,
+      "name": "kang",
+      "age": "35",
+      "job": "frontend",
+      "language": "python ",
+      "pay": "500"
+    },
+    {
+      "id": 10,
+      "name": "Jeong",
+      "age": "28",
+      "job": "frontend",
+      "language": "react",
+      "pay": "500"
+    },
+    {
+      "id": 11,
+      "name": "이순신",
+      "age": "35",
+      "job": "frontend",
+      "language": "python ",
+      "pay": "500"
+    }
+  ]
+}

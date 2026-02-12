@@ -1,0 +1,5 @@
+{
+  "/app/emp": "/employees",
+  "/app/emp/:id": "/employees/:id",
+  "/app/emp/name/:name": "/employees/?name=:name"
+}

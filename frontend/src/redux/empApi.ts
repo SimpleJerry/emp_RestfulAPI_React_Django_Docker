@@ -2,7 +2,7 @@ import axios from "axios";
 import {createAsyncThunk} from "@reduxjs/toolkit";
 import {Employee} from "@/types/type";
 
-const API_URL = "http://localhost:8000/api/emp";
+const API_URL = "/api/emp";
 
 // Get All infos
 export const fetchGetEmployeeInfos =
@@ -11,7 +11,7 @@ export const fetchGetEmployeeInfos =
         "fetchGetEmployeeInfos",
         async (_, thunkAPI) => {
             try {
-                const response = await axios.get(`${API_URL}`);
+                const response = await axios.get(`${API_URL}/`);
                 return response.data;
             } catch {
                 return thunkAPI.rejectWithValue("Failed to load data");
